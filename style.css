@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: aquamarine;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.avatar {
+  border-radius: 28px;
+  width: 300px;
+  margin-top: 0.6em;
+  margin-left: 0.6em;
+  margin-bottom: 0.6em;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info p {
+  color: #6a6b6e;
+  font-weight: bold;
+  margin-left: 0.5em;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.info-text {
+  margin-left: 25px;
+}
+
+.container {
+  max-width: 75%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+span {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: darkmagenta;
+}
+
+.bg-grey {
+  background-color: #6a6b6e;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.table td:nth-child(1) {
+  font-weight: bold;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin-top: 10px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background: black;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
